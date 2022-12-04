@@ -1,0 +1,43 @@
+#header{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 75px;
+    color: rgb(16,43,66);
+}
+#count{
+    text-align: center;
+    font-size: 100px;
+    color: black;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#decrease{
+    width: 150px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    font-size: 1.1rem;
+    border: 2px solid red;
+    cursor: pointer;
+}
+#reset{
+    width: 150px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    font-size: 1.1rem;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+#increase{
+    width: 150px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    font-size: 1.1rem;
+    border: 2px solid green;
+    cursor: pointer;
+}
